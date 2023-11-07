@@ -1,0 +1,274 @@
+{
+  "columns": [
+    {
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false,
+      "width": 52
+    },
+    {
+      "field": "",
+      "title": "",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 61
+    },
+    {
+      "field": "dating",
+      "title": "dating",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "violence",
+      "title": "violence",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "world/life",
+      "title": "world/life",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "night/time",
+      "title": "night/time",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "shake the audience",
+      "title": "shake the audience",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 182
+    },
+    {
+      "field": "family/gospel",
+      "title": "family/gospel",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 161
+    },
+    {
+      "field": "romantic",
+      "title": "romantic",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "communication",
+      "title": "communication",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "obscene",
+      "title": "obscene",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "music",
+      "title": "music",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 159
+    },
+    {
+      "field": "movement/places",
+      "title": "movement/places",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 171
+    },
+    {
+      "field": "light/visual perceptions",
+      "title": "light/visual perceptions",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 207
+    },
+    {
+      "field": "family/spiritual",
+      "title": "family/spiritual",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "like/girls",
+      "title": "like/girls",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "sadness",
+      "title": "sadness",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "feelings",
+      "title": "feelings",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 161
+    },
+    {
+      "field": "danceability",
+      "title": "danceability",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 159
+    },
+    {
+      "field": "acousticness",
+      "title": "acousticness",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "instrumentalness",
+      "title": "instrumentalness",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 206
+    },
+    {
+      "field": "valence",
+      "title": "valence",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "energy",
+      "title": "energy",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "genre_blues",
+      "title": "genre_blues",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 137
+    },
+    {
+      "field": "genre_country",
+      "title": "genre_country",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 151
+    },
+    {
+      "field": "genre_hip hop",
+      "title": "genre_hip hop",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 150
+    },
+    {
+      "field": "genre_jazz",
+      "title": "genre_jazz",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 129
+    },
+    {
+      "field": "genre_pop",
+      "title": "genre_pop",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 127
+    },
+    {
+      "field": "genre_reggae",
+      "title": "genre_reggae",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 147
+    },
+    {
+      "field": "genre_rock",
+      "title": "genre_rock",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 130
+    }
+  ]
+}

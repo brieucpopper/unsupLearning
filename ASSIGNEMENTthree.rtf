@@ -1,0 +1,132 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue-Bold;}
+{\colortbl;\red255\green255\blue255;\red193\green193\blue193;\red245\green245\blue246;\red0\green0\blue0;
+}
+{\*\expandedcolortbl;;\cssrgb\c80000\c80000\c80000;\cssrgb\c96863\c96863\c97255;\cssrgb\c0\c0\c0;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20140\viewh12100\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs46 \cf0 \
+TODO:\
+\
+4 premieres pages OK\
+\
+Clean README.txt\
+Rename file bpopper3-analysis.pdf\
+-better analysis for ICA\
+-performance analysis for NN\
+-better Manifold analysis\
+-clean CCL\
+\
+\
+\
+\
+\
+\
+\
+BRIEF DESCRIPTION OF DS\
+
+\fs32 \
+\\subsection\{More complex dataset : Music metadata\}\
+This dataset is much more complex, with around 28 000 entries. \
+\
+For this dataset, the goal is to \\textbf\{predict whether a song has been published before or after the year 1990\} based on this features :\
+\\begin\{enumerate\}\
+    \\item 16 numbers between 0 and 1 that describe how prevalent the topic is in the song's lyrics (for instance violence, romantic, sadness are topics)\
+    \\item 5 numbers between 0 and 1 that describe metrics about the song(its energy or its acousticness for instance)\
+    \\item a \\textbf\{hot encoded\} genre among : blues, country, hip hop, jazz, pop, reggae, rock\
+\\end\{enumerate\}\
+\
+This makes a total of \\textbf\{28 input features\}, and the songs are songs from 1950 to 2019 with roughly half of them older than 1990. More details here : \\href\{https://data.mendeley.com/datasets/3t9vbwxgr5/2\}\{link\}\
+\
+Want to highlight the power of dimensionality reduction on this one because surely we can get decent results without the 28 dimensions, because very simple decision trees could get good accuracy, and also because we feel like some of these are pretty random.\
+Would be fun to see what the clusters end up being, by genre (and matching our intuition) or no? Could explore this by taking out the oneHotencoded genre.\
+See if it\'92s possible to gain accuracy by not overwhelming models with mostly useless or noisy data?\
+\
+\
+Other DS is data on passengers of the titanic, 892 entries\
+\
+After preprocessing 
+\fs42 : 
+\fs34 \expnd0\expndtw0\kerning0
+['Age', 'SibSp', 'Parch', 'Fare', 'Pclass_1', 'Pclass_2', 'Pclass_3',\
+\pard\pardeftab720\partightenfactor0
+\cf0        'isMale\'92]\
+\
+Some missing ages have been replaced with the average age.\
+\
+We have also boolean for if the passenger survived. All values are between 0 and 1, SipSp and Parch relates to if the person had relatives aboard, fare relates to the price paid by the passenger. Then 1 =first class, 2 = 2nd class\
+\
+Interesting to see how redundancy is dealt with, as fare correlates with the one hot encoded genres. Also we could delete one of the 3 hot encoded columns, but well leave it since dimensions is ok to see \
+If survivors have a lot in common (for example a lot of them are female) maybe we can do a lot of clusters, and they will have very far from average survivability rate \
+\
+\
+
+\fs52 EXPLAIN CLUSTER RESULTS WITH DATA\
+\
+EXPLANE METHODS : \
+\
+Choose optimal number of clusters (inter c variance) intra variance)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 2d plots of clusters\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b\fs32 \cf0 \cb3 Calinski-Harabasz Index and DUNN and silhouette + justify\
+\pard\pardeftab720\partightenfactor0
+
+\f0\b0\fs52 \cf0 \cb1 \
+Why these clusters? What are they?\
+See with labels?\
+Compare algos (clock wall time, performance)\
+Potential changes?\
+More creative questions, JUSTIFY WITH DATA\
+\
+STEP 2 : dim. Red.\
+\
+\
+PCA,ICA,RP : SUIVRE FAQ\
+\
+
+\fs34 \
+\pard\pardeftab720\partightenfactor0
+
+\fs56 \cf0 \kerning1\expnd0\expndtw0 \
+CCL : reprender intro hypotheses\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\fs46 \cf0 \
+\
+\
+STEP 3 : RUN DIM RED, THEN CLUSTERING\
+\
+JUSTIFY choosing PCA, justify which manifold chosen\
+\
+PCA then cluster ds 1\
+PCA then cluster ds 2\
+Manifold then cluster ds1\
+Manifold then cluster ds2\
+\
+\
+STEP 4:\
+ON MUSIC DS\
+\
+RUN NERUAL NET post RP AND TSNE\
+DISCUSS RESULTS (keep \'e9tiquette, but only 2 features instead of 28, and maintain high accu)\
+\
+STEP 5 : \
+ON MUSIC DS + CLUSTER, talk about NN perf\
+\
+\
+Try maybe with just cluster + a few feats to see it can be really good\
+\
+\
+\
+\
+REMAINS TO DO:\
+\
+\
+}

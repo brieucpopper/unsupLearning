@@ -1,0 +1,152 @@
+{
+  "fields": [
+    {
+      "name": "",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "dating",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "violence",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "world/life",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "night/time",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "shake the audience",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "family/gospel",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "romantic",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "communication",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "obscene",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "music",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "movement/places",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "light/visual perceptions",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "family/spiritual",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "like/girls",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "sadness",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "feelings",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "danceability",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "acousticness",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "instrumentalness",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "valence",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "energy",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "genre_blues",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "genre_country",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "genre_hip hop",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "genre_jazz",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "genre_pop",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "genre_reggae",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "genre_rock",
+      "type": "integer",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}
